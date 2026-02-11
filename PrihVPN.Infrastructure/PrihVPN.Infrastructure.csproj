@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="5.0.17" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrihVPN.Core\PrihVPN.Core.csproj" />
+  </ItemGroup>
+</Project>
